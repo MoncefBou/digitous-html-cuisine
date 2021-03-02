@@ -1,0 +1,23 @@
+/* GENERAL */
+
+
+
+
+/* ARTICLES */
+
+.h1
+{
+    text-align: center;
+}
+.lastarticle h4
+{
+    font-family: 'courgette';
+}
+
+.lastarticle img
+{
+    width: 100%;
+}
+
+
+/* FOOTER */
