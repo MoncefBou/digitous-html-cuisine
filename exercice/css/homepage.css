@@ -5,13 +5,15 @@
 
 /* ARTICLES */
 
-.h1
-{
-    text-align: center;
-}
 .lastarticle h4
 {
     font-family: 'courgette';
+}
+
+.lastarticle a
+{
+    text-decoration: none;
+    color: black;
 }
 
 .lastarticle img
@@ -19,5 +21,107 @@
     width: 100%;
 }
 
+.lastarticle h3
+{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.lastarticle h4
+{
+    font-size: 2rem;
+}
+
+
+.lastarticle p
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+}
+
+#precedent
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+}
+
+.formjustlg
+{
+    display: none;
+}
+
 
 /* FOOTER */
+
+
+/* RESPONSIVE */
+
+@media(min-width: 768px) { 
+
+    .lastarticle img
+    {
+        height: 150px;
+        width: 266.67px;
+        margin-right: 40px;
+    }
+
+    .lastarticle a
+    {
+        height: 150px;
+    }
+
+    .lastarticle h4
+    {
+        font-size: 1.8rem;
+    }
+
+    .lastarticle p
+    {
+        font-size: 1rem;
+    }
+
+    #precedent
+    {
+        padding-top: 20px;
+    }
+}
+
+@media(min-width: 992px) {
+    .formjustlg
+    {   
+        display:  block;
+    }
+
+    .lastarticleflexlg
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .homepagelg .logo img
+    {
+        height: auto;
+        margin-right: 0;
+    }
+
+    .btnlastarticle
+    {
+        background-color: white;
+        border: 2px solid black;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .lastarticle h4
+    {
+        font-size: 1.5vw;
+    }
+
+    .lastarticle p
+    {
+        font-size: 1.4vh;
+        font-size: 1vw;
+    }
+}

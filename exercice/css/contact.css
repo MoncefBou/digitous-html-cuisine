@@ -1,0 +1,47 @@
+/* CONTACT */
+
+.contact h2
+{
+    font-family: 'courgette';
+    font-size: 2.5rem;
+}
+
+.contact p
+{
+    font-family: 'Open Sans Condensed', sans-serif ;
+    font-size: 1.3rem;
+    color: rgb(128, 128, 128);
+    line-height: 2.5rem;
+}
+
+#mapid
+{
+    height: 400px;
+}
+
+.formjustlg
+{
+    display: none;
+}
+
+@media(min-width: 992px) {
+    .contactlg
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnlastarticle
+    {
+        background-color: white;
+        border: 2px solid black;
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .formjustlg
+    {
+        display: block;
+    }
+}
