@@ -1,5 +1,11 @@
 /* GENERAL */
 
+.menu
+{
+    background-image: url(../../img/header.jpg);
+    height: 450px;
+    background-position: center;
+}
 
 
 
@@ -103,6 +109,12 @@
     {
         height: auto;
         margin-right: 0;
+        width: 32px;
+    }
+
+    .logo
+    {
+        padding-right: 0;
     }
 
     .btnlastarticle

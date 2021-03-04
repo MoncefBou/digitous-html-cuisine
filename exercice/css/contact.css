@@ -1,5 +1,12 @@
 /* CONTACT */
 
+.menu
+{
+    background-image: url(../../img/header.jpg);
+    height: 450px;
+    background-position: center;
+}
+
 .contact h2
 {
     font-family: 'courgette';
@@ -43,5 +50,17 @@
     .formjustlg
     {
         display: block;
+    }
+
+    .homepagelg .logo img
+    {
+        height: auto;
+        margin-right: 0;
+        width: 32px;
+    }
+    
+    .logo
+    {
+        padding-right: 0;
     }
 }
